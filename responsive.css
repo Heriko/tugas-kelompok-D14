@@ -1,0 +1,447 @@
+/* responsive tablet */
+@media (max-width: 1100px){
+/* home page */
+*{
+    box-sizing: border-box;
+}
+
+/* header */
+header{
+    position: relative;
+}
+
+.header-wrapper{
+    background-size: cover;
+    background-position: center;
+    padding: 5px;
+}
+
+.header-right{
+    margin-top: 15%;
+    margin-right: 10%;
+}
+
+.header-right img{
+    width: 80%;
+    height: 70%;
+}
+
+.header-left{
+    width: 30%;
+    height: 40%;
+    margin-top: 15%;
+    margin-left: 18%;
+    
+}
+
+.title{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 40px;
+    margin: 20px;
+    text-shadow: 1px 3px 4px #f0f0f0;
+}
+
+.mobile-title{
+    display: none;
+}
+
+.cta-hero{
+    position: relative;
+    padding:20px 50px;
+    right:40%;
+    margin-top: 25px;
+}
+
+.cta-hero a{
+    color:#f7ea00;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.cta-hero img{
+    height: 25px;
+    width: 25px;
+    /* margin-left: 5px; */
+}
+/* end of header */
+
+/* nav  */
+nav{
+    display:inline-block;
+    position:absolute;
+    height: 50px;
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.4); */
+}
+
+.nav-logo{
+    float:left;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.nav-logo img{
+    width: 80px;
+    height:50px;
+}
+
+.nav-right{
+    float: right;
+    margin-right: 50px;
+    padding-top: 10px;
+}
+
+.nav-right li{
+    display: inline-block;
+    float: left;
+    margin-right: 15px;
+    padding-top: 10px;
+}
+
+.nav-right li a{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav-btn{
+    padding: 8px;
+    border-radius: 5px;
+}
+/* end of nav  */
+
+/* info */
+
+.info-wrapper{
+    display: flex;
+}
+
+.info{
+    flex-direction: column;
+    width: 50%;
+    bottom:0px;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.info h4{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    color:white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.info p{
+    font-family: 'roboto';
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+}
+
+.info-wrapper .left{
+    background-color:#c856a4;
+}
+
+.info-wrapper .right{
+    background-color: #c856a4;
+}
+
+/* end of info */
+
+/* about section */
+
+.about-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    margin-bottom: 150px;
+    margin-top: 50px;
+}
+
+
+/* end about section */
+
+/* detail section */
+.detail-wrapper{
+    width: 100%;
+    padding: 30px 0;
+}
+
+.detail-wrapper h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.detail-wrapper .container{
+    margin: 0 auto; 
+    width: 80%;
+}
+/* end detail section */
+
+/* footer */
+.footer{
+    margin-left: 30px;
+}
+
+.footer-left
+{
+    font-size: 18px;
+    width: 30%;
+    line-height: 40px;
+}
+
+.footer-center
+{
+    font-size: 18px;
+    width: 30%;
+    line-height: 40px;
+}
+
+.footer-right
+{
+    font-size: 18px;
+    width: 30%;
+    line-height: 40px;
+}
+
+.copyright
+{
+    text-align: center;
+    color: white;
+    padding: 25px;
+    margin: 0px;
+    font-size: 14px;
+}
+/* end footer */
+
+
+/* end home page */
+
+}
+
+
+
+/* responsive mobile */
+
+@media all (max-width: 670px){
+/* home page */
+
+/* header */
+.header-wrapper{
+    background-size: cover;
+    background-position: center;
+    padding: 5%;
+    width:100%;
+}
+
+.header-right{
+    margin: 0 auto;
+}
+
+.header-right img{
+    padding-top: 40%;
+}
+
+.header-left{
+    display: none;
+}
+
+.mobile-title{
+    display: inline-block;
+    width: 80%;
+    height: 40px;
+    margin-left: 30px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.mobile-title h1{
+    font-family: 'roboto';
+    font-size: 28px;
+    font-weight: bolder;
+    padding: 10px 15px;
+    background-image: linear-gradient(to right, #c856a4, #f7ea00);
+    color: #f0f0f0;
+    border-radius: 5px;
+}
+
+.cta-hero{
+    position: relative;
+    left:35px;
+    padding:10px 20px;
+}
+
+.cta-hero a{
+    font-size: 28px;
+}
+
+.cta-hero img{
+    height: 20px;
+    width: 20px;
+    /* margin-left: 5px; */
+}
+
+.info-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.info{
+    flex: auto;
+    width: 90%;
+    border-radius: 5px;
+}
+
+.info h4{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    color:white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.info p{
+    font-family: 'roboto';
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+}
+
+.info-wrapper .left{
+    background-color:#c856a4;
+}
+
+.info-wrapper .right{
+    background-color: #c856a4;
+}
+
+/* end of header */
+
+/* about section */
+
+.about-wrapper{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 450px;
+    margin-top: 250px;
+    padding: 10px 15px 5px;
+}
+
+.about-video{
+    flex: auto;
+    width: 100%;
+}
+
+.about-video video{
+    width: 100%;
+}
+
+.about-desc{
+    flex: auto;
+    height: 100%;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.promo-wrapper{
+    width: 80%;
+    height: 50%;
+}
+
+.promo-image img{
+    height: 100%;
+}
+
+.promo-cta h1{
+    font-size: 30px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.promo-cta p{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.promo-btn{
+    padding: 10px;
+}
+
+/* end of about section */
+
+/* detail section */
+.detail-wrapper{
+    width: 100%;
+    padding: 30px 10;
+}
+
+.detail-wrapper .container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto; 
+    width: 100%;
+}
+
+.details{
+    flex: auto;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* end of detail section */
+
+/* footer */
+.footer{
+    width: 100%;
+}
+
+.footer-left
+{
+    font-size: 12px;
+    width: 100%;
+    line-height: 85px;
+}
+
+.footer-center
+{
+    font-size: 12px;
+    width: 100%;
+    line-height: 85px;
+}
+
+.footer-right
+{
+    font-size: 12px;
+    width: 100%;
+    line-height: 85px;
+}
+
+.copyright
+{
+    text-align: center;
+    color: white;
+    padding: 25px;
+    margin: 0px;
+    font-size: 14px;
+}
+/* end footer */
+
+
+/* end of homepage */
+
+}

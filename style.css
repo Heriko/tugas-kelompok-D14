@@ -1,0 +1,499 @@
+/* reset css */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end reset css */
+
+/* home page */
+*{
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #252525;
+}
+
+/* header */
+
+header{
+    position:relative;
+    width: 100%;
+}
+
+.header-wrapper{
+    height:550px;
+    background-image: url(asset/img/bg-header.jpg);
+    background-size: cover;
+    padding: 110px 250px;
+}
+
+.header-right{
+    float:right;
+}
+
+.header-right img{
+    width:420px;
+    height:350px;
+}
+
+.header-left{
+    float:left;
+    height:250px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding-top:5px;
+    margin-bottom: 30px;
+}
+
+.title{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 54px;
+    margin-top: 20px;
+    text-shadow: 3px 5px 4px #f0f0f0;
+}
+
+.mobile-title{
+    display: none;
+}
+
+.one {
+    color: #c856a4;
+}
+
+.two{
+    color:white;
+}
+
+.three{
+    color:#f7ea00
+}
+
+nav{
+    display:inline-block;
+    position:absolute;
+    height: 80px;
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.4); */
+}
+
+.nav-logo{
+    float:left;
+    margin-left: 200px;
+    margin-top: 15px;
+}
+
+.nav-logo img{
+    width: 85px;
+    height:50px;
+}
+
+.nav-right{
+    float: right;
+    margin-right: 200px;
+    padding-top:20px;
+}
+
+.nav-right li{
+    display: inline-block;
+    float: left;
+    margin-right: 30px;
+    padding-top: 10px;
+}
+
+.nav-right li a{
+    font-family: 'roboto';
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    text-decoration: none;
+    text-shadow: 0px 2px 3px #d9d9d9;
+}
+
+.nav-right li a:hover{
+    color:#c856a4;
+    transition: all 0.5s;
+}
+
+.nav-right li a:active{
+    color:#c856a4;
+}
+
+.nav-btn{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #c856a4;
+    float: right;
+    box-shadow: 0 7px 3px rgba(128, 68, 106, 1);
+    cursor: pointer;
+}
+
+.nav-btn:active{
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+.nav-btn a{
+    font-family: 'roboto';
+    text-decoration: none;
+    font-weight: bold;
+    color:#f7ea00;
+}
+
+.cta-hero{
+    margin-left: 15%;
+    padding:15px 30px;
+    background-color: #c856a4;
+    border-radius: 5px;
+    box-shadow: 0 7px 3px rgba(128, 68, 106, 1);
+    cursor: pointer;
+}
+
+.cta-hero:active {
+    position: relative;
+    top:7px;
+    box-shadow: none;
+}
+
+.cta-hero a{
+    color:#f7ea00;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.cta-hero img{
+    height: 15px;
+    width: 15px;
+    margin-left: 10px;
+}
+
+.info-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.info{
+    flex:content;
+    width: 250px;
+    height: 130px;
+    position: relative;
+    bottom:50px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 15px;
+}
+
+.info h4{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    color:white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.info p{
+    font-family: 'roboto';
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+}
+
+.info-wrapper .left{
+    background-color:#c856a4;
+}
+
+.info-wrapper .right{
+    background-color: #c856a4;
+}
+/* end of header */
+
+/* about section */
+.about-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:850px;
+    height: 350px;
+    margin:0 auto;
+    margin-bottom: 200px;
+}
+
+.about-video{
+    width: 40%;
+    height: 100%;
+}
+
+.about-video video{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.about-desc{
+    height: 100%;
+    width: 70%;
+    padding: 10px 15px 5px;
+}
+
+.about-desc h1{
+    font-family: 'Montserrat';
+    font-size: 36px;
+    font-weight: bold;
+    color: #f0f0f0;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.about-desc h3{
+    font-family: 'roboto';
+    font-size: 18px;
+    font-weight: normal;
+    color: #c856a4;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.about-desc p{
+    font-family: 'roboto';
+    font-size: 14px;
+    font-weight: lighter;
+    color: #d9d9d9;
+    text-align: left;
+    line-height: normal ;
+}
+/* end about section */
+
+/* promo section */
+.promo-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:650px;
+    height: 350px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+    padding: 15px;
+    border: 2px solid #f7ea00;
+}
+
+.promo-wrapper div{
+    flex: auto;
+}
+
+.promo-image{
+    width: 45%;
+    height: auto;
+}
+
+.promo-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.promo-cta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 55%;
+    padding-left: 15px;
+}
+
+.promo-cta h1{
+    font-family: 'montserrat';
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 30px;
+    color: #c856a4;
+    margin-bottom: 20px;
+}
+
+.promo-cta p{
+    color: #f0f0f0;
+    font-family: 'roboto';
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.promo-btn{
+    flex: content;
+    padding: 20px;
+    background-color: #14FF00;
+    text-align: center; 
+    box-shadow: 0 7px 3px rgba(86, 203, 30, 1);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.promo-btn:active{
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+.promo-btn a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #f9f9f9;
+    font-weight: bold;
+}
+
+/* end of promo section */
+
+/* detail section */
+.detail-wrapper{
+    width: 100%;
+    padding: 30px 0;
+}
+
+.detail-wrapper h1{
+    font-size: 65px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #c856a4;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.detail-wrapper .container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto; 
+    width: 850px;
+    padding-bottom: 150px;
+}
+
+.details{
+    flex: auto;
+    width: 30%;
+    height: 200px;
+    margin: 5px;
+    background-size: cover;
+    background-position: center;
+}
+
+.satu{
+    background-image: url(asset/img/home-detail1.jpg);
+}
+
+.dua{
+    background-image: url(asset/img/home-detail2.jpg);
+}
+
+.tiga{
+    background-image: url(asset/img/home-detail3.jpg);
+}
+
+.empat{
+    background-image: url(asset/img/home-detail4.jpg);
+}
+
+.lima{
+    background-image: url(asset/img/home-detail5.jpg);
+}
+/* end of detail section */
+
+/* footer */
+hr
+{
+	width: 75%;
+}
+
+footer
+{
+	background: linear-gradient(180deg, rgba(37, 37, 37, 0) 0%, #723E3E 100%);
+}
+
+.footer
+{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	line-height: 30px;
+}
+
+.footer-left
+{
+	display: block;
+	float: left;
+	width: 33.33%;
+	color: white;
+}
+
+.footer-center
+{
+	display: block;
+	float: left;
+	color: white;
+	width: 33.33%;
+}
+
+.footer-right
+{
+	display: block;
+	float: left;
+	color: white;
+	width: 33.33%;
+}
+
+.hr-li
+{
+	width: 30%;
+}
+
+.copyright
+{
+	text-align: center;
+	color: white;
+	padding: 25px;
+	margin: 0px;
+}
+/* end of footer */
+
+/*end of homepage */
